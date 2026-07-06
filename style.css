@@ -1,0 +1,40 @@
+*{  
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+} 
+.common-button{
+    background-color: #FD6E0A;
+    font-size:20px;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    color: white;
+
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px 6px;
+}
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+}
+.logo-r{
+    color: #FD6E0A;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 15px;
+    align-items: center;
+}
+ul li a{
+    text-decoration: none;
+}
