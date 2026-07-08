@@ -3,6 +3,9 @@
     padding: 0px;
     font-family: "Open Sans", sans-serif;
 } 
+img{
+    max-width: 100%;
+}
 .common-button{
     background-color: #FD6E0A;
     font-size:20px;
@@ -11,14 +14,27 @@
     border-radius: 10px;
     border: none;
     color: white;
-
+    cursor: pointer;
+}
+.outlain-common-button{
+    background-color: white;
+    font-size:20px;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    cursor: pointer;
+}
+.contenear{
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
 }
 nav{
     
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
     padding: 10px 6px;
 }
 .logo {
@@ -38,3 +54,101 @@ ul{
 ul li a{
     text-decoration: none;
 }
+.hero-parent-root{
+    background-color: #fff8f3;
+}
+.hero-parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-left-p-1{
+    font-size: 28px;
+    font-size: bold;
+    margin-top: 12px;
+}
+.hero-left h1{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+.hero-left-botton-preant{
+    margin-top: 14px;
+}
+.about-parent{
+    background-color: #fff8f3;
+    text-align: center;
+    margin: 80px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 40px;
+}
+
+.what-i-do-parent{
+    text-align: center;
+    margin: 60px auto;
+}
+.what-i-do-parent-contenear{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 40px;
+}
+.what-i-do-parent-contenear .what-i-do-card{
+    border: 2px solid#37fd0a;
+    border-radius: 10px 20px;
+    text-align: left;
+    padding: 10px;
+}
+.what-i-do-parent-contenear .what-i-do-card p{
+    color: #757575;
+    font-size: 15px;
+}
+.what-i-do-parent-contenear .what-i-do-card h2{
+    margin: 10px 0;
+}
+.A-summar-of-My-Resume-parent{
+    text-align: center;
+    margin: 50px auto;
+
+}
+.A-summar-of-My-Resume-parent .block{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    text-align: left;
+   
+
+}
+.A-summar-of-My-Resume-parent .block2{
+    border: 2px solid#b1f2de;
+    padding: 10px;
+    border-radius: 8px 20px;
+
+}
+.A-summar-of-My-Resume-parent .block2 h3{
+    font-size: bold;
+    margin-bottom: 20px;
+     
+}
+.A-summar-of-My-Resume-parent .block2 h4{
+    font-size: bold;
+    margin-bottom: 20px;
+}
+.color{
+    color: #757575;
+}
+
+.My-Amazing-Works-parent{
+    text-align: center;
+}
+.gallry{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
